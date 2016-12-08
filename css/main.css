@@ -119,6 +119,7 @@ body{
     margin-top: 110px;
     margin-left: 20px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .banner h1{
@@ -181,6 +182,12 @@ body{
     padding: 0;
     margin: 0;
     color: #00aa9e;
+}
+
+.discover-content h5{
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 12px;
 }
 
 .discover-content p{
@@ -339,6 +346,7 @@ body{
     margin-left: 200px;
     margin-right: 200px;
     background-color: #ffffff;
+    letter-spacing: 1px;
 }
 
 .feed-content h2, h5{
