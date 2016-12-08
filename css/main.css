@@ -1,5 +1,13 @@
 body{
 	margin: 0;
+<<<<<<< HEAD
+=======
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+>>>>>>> ad0a2334eb2042c45446b1574328336cfb9d048b
 }
 
 .container{
@@ -8,23 +16,33 @@ body{
 
 
 .background-wrap{
+<<<<<<< HEAD
     position: center;
     width: 100%;
     height: 100%;
 	overflow: hidden;
 	top: 0;
 	left: 0;
+=======
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+>>>>>>> ad0a2334eb2042c45446b1574328336cfb9d048b
 }
 
 .bg-video{
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-height: 100%;
-	min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .content{
+<<<<<<< HEAD
 	position: absolute;
     width: 100%;
 	min-height: 100%;
@@ -45,6 +63,21 @@ body{
 	color: #00aa9e;
 	font-weight: normal;
 }
+=======
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> ad0a2334eb2042c45446b1574328336cfb9d048b
 
 .logo{
     margin: 70px;
