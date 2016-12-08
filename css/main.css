@@ -165,7 +165,7 @@ body{
 
 .discover-wrap{
     margin-top: 600px;
-    height: 380px;
+    height: 350px;
     background-color: #493627;
 
 }
@@ -189,7 +189,15 @@ body{
 }
 
 .discover-content p{
+    font-family: 'Helvetica';
+    color: #ffffff;
     font-size: 14px;
+    text-align: justify;
+}
+
+.discover-content .light-text{
+    font-size: normal;
+    color: gray;
 }
 
 .date-forms{
@@ -199,8 +207,23 @@ body{
     width: 400px;
     height: 290px;
    /* background-color: red;*/
-
+   font-family: 'Helvetica';
+    font-size: 14px;
 }
 
+.date-forms p{
+    color: gray;
+}
+.date-forms .checkin{
+    width: 150px;
+    height: 20px;
+}
 
+.btn-book{
+    margin-top: 10px;
+    width: 155px;
+    height: 30px;
+    background-color: #00aa9e;
+    border: none;
+}
 
