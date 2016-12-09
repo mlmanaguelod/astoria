@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Welcome to Astoria!</title>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -117,8 +118,75 @@
                         <li><a href="#"><img src="img/insta.png" height="15" width="15">Instagram</a></li>
                     </ul>
                 </div>
+
+                <div class="twitter1-feed">
+                    <a class="twitter-timeline" data-lang="en" data-width="600" data-height="300" data-theme="light" href="https://twitter.com/TwitterDev">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+                <div class="fb-feed">
+                    <div class="fb-post" data-href="https://www.facebook.com/Intel/posts/10153981861646850" width="300" data-show-text="true"><blockquote cite="https://www.facebook.com/Intel/posts/10153981861646850" class="fb-xfbml-parse-ignore"><p>400 years in the making, Intel technology is giving the creative minds behind #RSCTempest the freedom to imagine Shakespeare like never before. http://intel.ly/2gJtFLq</p>Posted by <a href="https://www.facebook.com/Intel/">Intel</a> on&nbsp;<a href="https://www.facebook.com/Intel/posts/10153981861646850">Monday, December 5, 2016</a></blockquote></div>
+
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                </div>
+
             </div>
         </div>
+        <div class="gmapp">
+            <!-- <div class="map-contact">
+                <h5>GET IN TOUCH AND</h5>
+                <h2>Stay Connected</h2>
+                <p>rsv@astoriapalawan.com<br>02.687.1111 local 8024 / 8302 / 8110<br>Km 62 North National Highway Brgy San Rafael<br>Puerto Prinsesa City, Palawan, 5300</p>
+            </div> -->
+            <div id="gmap">
+                <script>
+                  function initMap() {
+                    var uluru = {lat: 9.9858, lng: 118.9670};
+                    var map = new google.maps.Map(document.getElementById('gmap'), {
+                      zoom: 14,
+                      center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                      position: uluru,
+                      map: map
+                    });
+                  }
+              </script>
+            </div>
+        </div>
+
+        <footer class="footer-wrap">
+            <div class="footer-nav">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Astoria Logo">
+                </div>
+                    <div class="navlist">
+                        <ul class="list-nav">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">FACILITIES</a></li>
+                            <li><a href="#">GALLERY</a></li>
+                            <li><a href="#">CONTACTS</a></li>
+                            <li><a href="#">RESERVATION</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-list">
+                        <ul>
+                            <li><a href="#"><img src="img/fb-circle.png" width="30" height="30"></a></li>
+                            <li><a href="#"><img src="img/twitter-circle.png" width="30" height="30"></a></li>
+                            <li><a href="#"><img src="img/gplus-circle.png" width="30" height="30"></a></li>
+                            <li><a href="#"><img src="img/insta-circle.png" width="30" height="30"></a></li>
+                        </ul>
+                        <p>&copy; Copyright 2016 Astoria Palawan</p>
+                    </div>
+            </div>
+        </footer>
 
 </body>
 </html>
