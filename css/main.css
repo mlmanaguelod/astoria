@@ -43,7 +43,7 @@ body{
     /*overflow: hidden;*/
     text-align: center;
     font-family: 'Montserrat';
-    background: #eaeaea;
+    border: 1px solid red;
 }
 
 .logo{
@@ -61,7 +61,7 @@ body{
     height: 50px;
     margin-left: 363px;
     margin-top: 50px;
-    background-color: red;
+    border: 1px solid red;
     font-family: 'Helvetica';
     font-weight: normal;
     font-size: 12px;
@@ -110,7 +110,7 @@ body{
     position: absolute;
     width: 600px;
     height: 180px;
-    background-color: red;
+    border: 1px solid red;
     margin-top: 200px;
     margin-left: 200px;
     margin-right: 200px;
@@ -134,6 +134,7 @@ body{
 .with-border{
     border-bottom: 4px solid #00aa9e;
     width: 40px;
+    margin-bottom: 10px;
     margin-right: 270px;
     margin-left: 270px;
 }
@@ -167,17 +168,89 @@ body{
 }
 
 .discover-content{
+    position: absolute;
+    float:left;
     width: 960px;
     height: 300px;
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 850px;
-    background-color: #eaeaea;
+    /*border: 1px solid red;*/
 }
-/*.discover-wrap{
-    margin-top: 600px;
-    height: 350px;
-    background-color: #493627;
+
+.discover-text{
+    display: inline-block;
+    width: 700px;
+    height: 300px;
+    margin: 0;
+    text-align: justify;
+    font-family: 'Montserrat';
+    /*border: 1px solid red;*/
+}
+
+.discover-text h5, h2{
+    color: #00aa9e;
+    margin: 0px;
+}
+
+.discover-text h5{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.discover-text h2{
+    font-weight: normal;
+}
+
+.discover-text p{
+    font-family: 'Helvetica';
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.discover-content .light-text{
+    font-size: normal;
+    color: #eaeaea;
+}
+
+.date-forms{
+    display: inline-block;
+    float: right;
+    width: 250px;
+    height: 300px;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    /*border: 1px solid red;*/
+}
+
+.date-content{
+    width: 200px;
+    height: 300px;
+    margin-top: 0;
+    margin-left: 62px;
+}
+
+.date-content p{
+    color: #eaeaea;
+    font-weight: 100;
+}
+
+.date-forms .checkin{
+    width: 180px;
+    height: 30px;
+}
+
+.btn-book{
+    margin-top: 10px;
+    width: 185px;
+    height: 35px;
+    background-color: #00aa9e;
+    color: #fff;
+    border: none;
+}
+
+/*
 
 }
 
@@ -210,10 +283,7 @@ body{
     text-align: justify;
 }
 
-.discover-content .light-text{
-    font-size: normal;
-    color: gray;
-}
+
 
 .date-forms{
     float: right;
@@ -228,19 +298,7 @@ body{
 .date-forms p{
     color: gray;
 }
-.date-forms .checkin{
-    width: 150px;
-    height: 20px;
-}
-
-.btn-book{
-    margin-top: 10px;
-    width: 155px;
-    height: 30px;
-    background-color: #00aa9e;
-    color: #fff;
-    border: none;
-}*/
+*/
 
 /*
 * Image Slider
