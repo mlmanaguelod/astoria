@@ -34,62 +34,52 @@ body{
 	background-color: rgba(0,0,0,0.5);
 }
 
-.content h1{
+.content-wrap{
+    width: 960px;
+    height: 700px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    overflow: hidden;
     text-align: center;
     font-family: 'Montserrat';
-	color: #fff;
-	font-weight: 300;
-    font-size: 40px;
+    /*background: #eaeaea;*/
 }
 
-.content h3{
-    font-family: 'Montserrat';
-    text-align: center;
-	color: #00aa9e;
-	font-weight: normal;
-}
+
 
 .logo{
-    margin: 70px;
-    margin-top: 40px;
-    padding: 20px;
     float: left;
 }
 
 /*
 * Navigation
 */
-/*.content{
-    font-family: Helvetica;
-    font-weight: 100;
-    font-size: 14px;
-    padding: 10px;
-}*/
 
-/*.navigation{
-    width: 960px;
-}
-
-.nav li a {
-    display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.nav li{
-    display: inline-block;
-    padding: 10px;
+.nav-wrap{
+    float: right;
+    width: 600px;
+    height: 50px;
+    margin-top: 50px;
+    /*background-color: red;*/
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .nav{
     list-style: none;
-    float: right;
-    margin: 20px;
-    margin-top: 50px;
-    margin-right: 150px;
-    font-family: 'Helvetica';
-    font-size: 12px;
-    font-weight: 400px;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .nav a:hover{
@@ -107,42 +97,44 @@ body{
 .nav li:last-child{
     background-color: #00aa9e;
     padding: 10px;
+    margin-right: 0px;
     border: 1px solid #00aa9e;
     border-radius: 30px;
-}*/
+}
 
 /*
 * Banner
 */
 
-/*.banner{
-    width: 960px;
-    height: 200px;
-    margin-top: 150px;
-    margin-left: 250px;
-    margin-right: 250px;
+.banner{
+    width: 600px;
+    height: 150px;
+    /*background-color: red;*/
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Montserrat';
     text-align: center;
-    letter-spacing: 2px;
 }
 
 .banner h1{
-    font-family: 'Montserrat';
     color: #ffffff;
-    font-size: 48px;
+    font-size: 44px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 .banner h2{
-    font-family: 'Montserrat';
     color: #00aa9e;
     font-weight: normal;
     font-size: 24px;
 }
 
 .with-border{
+    border-bottom: 4px solid #00aa9e;
     width: 40px;
-    border-bottom: 5px solid #00aa9e;
-    margin-bottom: 20px;
-    margin-left: 230px;
+    margin-right: 270px;
+    margin-left: 270px;
 }
 
 .btn-circle {
@@ -156,10 +148,12 @@ body{
 }
 
 .btn-cir{
-    margin-top: 50px;
-    margin-left: 660px;
-    margin-right: 700px;
-}*/
+    width: 50px;
+    width: 100px;
+    margin-top: 320px;
+    margin-left: 240px;
+}
+
 /*
 ** Discover Text
 */
