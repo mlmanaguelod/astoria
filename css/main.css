@@ -361,6 +361,7 @@ body{
 }
 
 .feed-wrap{
+    position: absolute;
     height: 500px;
     width: 960px;
     margin-left: 250px;
@@ -474,6 +475,8 @@ body{
 }
 
 /*.map-contact{
+    position: relative;
+    margin: 0;
     width: 200px;
     height: 200px;
 }
