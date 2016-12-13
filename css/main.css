@@ -37,8 +37,8 @@ body{
     position: absolute;
     width: 960px;
     height: 700px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 18%;
+    margin-right: 18%;
     margin-top: 50px;
     /*overflow: hidden;*/
     text-align: center;
@@ -112,8 +112,8 @@ body{
     height: 180px;
     /*border: 1px solid red;*/
     margin-top: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
+     margin-left: 18%;
+    margin-right: 18%;
     font-family: 'Montserrat';
     text-align: center;
 }
@@ -172,8 +172,8 @@ body{
     float:left;
     width: 960px;
     height: 300px;
-    margin-left: 250px;
-    margin-right: 250px;
+     margin-left: 18%;
+    margin-right: 18%;
     margin-top: 850px;
     /*border: 1px solid red;*/
 }
@@ -508,8 +508,8 @@ body{
 
 .footer-nav{
     width: 960px;
-    margin-left: 250px;
-    margin-right: 250px;
+     margin-left: 18%;
+    margin-right: 18%;
     height: 300px;
     border: 1px solid #493627;
 }
